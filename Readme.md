@@ -3,8 +3,7 @@
 
 
 This app is based on the covid-19 data from India of year 2020 and the data is downloaded from [kaggle](https://www.kaggle.com/).
-![alt text](D:\SACHIN\Desktop\WebAppPreview.png)
-
+![Preview](WebappPreview.png)
 
 ## Libraries Used
 
