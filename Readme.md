@@ -3,7 +3,8 @@
 
 
 This app is based on the covid-19 data from India of year 2020 and the data is downloaded from [kaggle](https://www.kaggle.com/).
-![Preview](WebappPreview.png)
+
+![alt text](https://github.com/Sachin-crypto/Streamlit-Apps/blob/master/WebAppPreview.png?raw=true)
 
 ## Libraries Used
 
