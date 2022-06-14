@@ -1,1 +1,1 @@
-web:sh setup.sh && streamlit run Covid-19_EDA.py
+web: sh setup.sh && streamlit run app.py
