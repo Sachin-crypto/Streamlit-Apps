@@ -1,8 +1,8 @@
 # Streamlit App
 ## _Covid-19 EDA and Visualization App_
 
-## Demo
-Click [app](https://covid19visualization.herokuapp.com/) to see the demo.
+# Demo
+## Click [app](https://covid19visualization.herokuapp.com/) to see the demo.
 
 
 This app is based on the covid-19 data from India of year 2020 and the data is downloaded from [kaggle](https://www.kaggle.com/).
