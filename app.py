@@ -95,12 +95,3 @@ if st.button("Lowest Death Ratio (%)"):
     st.header("Lowest Death Ratio (%) in a State/UT")
     low_death = data[data['Death Ratio (%)'] == min(data['Death Ratio (%)'])]
     st.write(low_death)
-
-
-
-    
-
-
-
-
-
