@@ -1,4 +1,4 @@
-# Importing neccessary libraries
+# Importing necessary libraries
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -28,12 +28,10 @@ default_index_x = index.index('State/UTs')
 default_index_y = index.index('Total Cases')
 default_index_col = index.index('Death Ratio (%)')
 
-
 # Creating selectbox for x, y and color label and setting default value
 x_label = st.sidebar.selectbox("X label Parameter", index, index=default_index_x)
 y_label = st.sidebar.selectbox("Y label Parameter", index, index=default_index_y)
 col = st.sidebar.selectbox("Color", index, index=default_index_col)
-
 
 st.markdown('''
 ## **Visualization**
@@ -62,7 +60,6 @@ def visualize_plotly(graph):
     return fig
 
 figure = visualize_plotly(graphs)
-
 st.plotly_chart(figure)
 
 st.markdown('''
