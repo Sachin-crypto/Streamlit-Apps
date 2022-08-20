@@ -37,8 +37,6 @@ st.markdown('''
 ## **Visualization**
 ''')
 
-# Caching the function
-@st.cache(suppress_st_warning=True)
 # function to plot graphs
 def visualize_plotly(graph):
     if graph == "Bar Graph":
